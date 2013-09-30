@@ -1,0 +1,12 @@
+{
+    "name": "Heimdall",
+    "version": "0.0.1",
+    "scripts": {
+        "start": "node bin/listen.js"
+    },
+    "dependencies": {
+        "express": "3.x",
+        "jenkins-api": "*",
+        "request": "*"
+    }
+}
