@@ -2,7 +2,7 @@
 /*global module:false*/
 
 var timeout = null,
-    debug = true,
+    debug = false,
 // unique device id for lamp
     deviceId = 63823,
     exec = require( 'child_process' ).exec,

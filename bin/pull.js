@@ -5,10 +5,10 @@
 
 var jenkinsapi = require( './jenkins.js' ),
     exec = require( 'child_process' ).exec,
-    jenkinsUrl = "http://localhost:8080/", //"http://cimagma.local/jenkins/",
+    jenkinsUrl = "http://cimagma.local/jenkins/", //"http://localhost:8080/",
     jenkins = jenkinsapi.init( jenkinsUrl ),
     lamp = require( "./lamp.js" ),
-    job = "TestJake", //"BankID_2.0_JST",
+    job = "BankID_2.0_JST", //"TestJake", //"BankID_2.0_JST",
     lastFailBuild = 0,
     lastSuccessBuild = 0,
     soundsPath = "../sound/",
